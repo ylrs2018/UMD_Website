@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NASA之行</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/bx_styles.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tinycarousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.blend-min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+	<link href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" rel="stylesheet" />
+	<style TYPE="text/css">
+	            body {
+                margin: 0px;
+                padding: 0px;
+            }           
+            html,
+            body,
+            #mapDiv {
+                height: 480px;
+                width: 100%;
+				
+            }
+    </style>
+</head>
+<body>
+	<div id="wrapper">
+    	<div id="top">
+        	<ul id="topSlider">
+            	<li>
+	            	<div class="screens"></div>
+					<a href="https://www.nasa.gov/centers/goddard/visitor/home/index.html" target="_blank" class="screens" title="NASA Goddard"></a>
+                    <div class="mainText">
+                        <p>UMD-BNU 2019 SUMMER WORKSHOP</p>
+                        <p style="text-indent:2em;text-align: justify;text-justify: inter-character">7月15日，在学部老师的带领下，本次中美实习小队20名研究生和本科生启程前往位于美国东海岸（紧邻华盛顿特区）的马里兰大学，开启为期两周的研习之旅。</p>
+                        <p><a href="http://www.bnu.edu.cn" target="_blank" class="auBtn" title="About us"></a><a href="http://www.bnu.edu.cn" target="_blank" class="contBtn" title="Contact"></a></p>
+                    </div>
+            	</li>
+            	<li>
+                    <div class="mainText" style="width:980px;">
+                    	<p style="text-indent:2em;text-align: justify;text-justify: inter-character">北京师范大学（Beijing Normal University），是中华人民共和国教育部直属、中央直管副部级建制的全国重点大学，位列双一流、985工程、211工程，国家“七五”、“八五”首批重点建设十所大学之一。</p>
+						<p style="text-indent:2em;text-align: justify;text-justify: inter-character">马里兰大学始建于1856年，是世界知名学府，美国著名公立研究型大学，地理学科实力雄厚。</p>
+						<p style="text-indent:2em;text-align: justify;text-justify: inter-character">北京师范大学与马里兰大学长期以来都保持着密切的联系，每年有多次交流合作的机会，本次的UMD-BNU International Summer Workshops由北京师范大学地理科学学部与马里兰大学行为与社会科学学院第一次合作举办。</p> 
+                        
+                    </div>
+            	</li>                
+            </ul>
+        	<a href="https://www.nasa.gov/" target="_blank" class="logo" title="NASA"></a>
+			
+            <div id="contactMail">
+                欢迎联系: <a href="#" title="Write to us">umd-bnu_4th@mail.bnu.edu.cn</a>
+            </div>
+			<a href="#s" class="hideCButton" title="MORE"></a>
+            <a href="#s" class="moreCButton" title="HIDE"></a>
+
+            </div>
+        <div id="mainFeaturesCont" style="display:block;">
+        	<div id="mainFeatures">
+            	<div class="left">
+                	<div class="icon"><img src="images/mfIconLeft.png" alt="" /></div>
+                	<div class="text">
+	                    <h3>NASA Goddard Visitor Center</h3>
+                    	<p>Goddard Visitor Center面向所有年龄段的人群，它用简单的展示方式为游客提供了丰富而深刻的知识。</p>
+						<p>参观者中心展示了Goddard在地球科学，天体物理学，太阳物理学，行星科学，工程学，通信和技术开发等方面的创新和令人兴奋的工作。游客中心让您有机会在自己的实际生活中亲身探索宇宙。</p>
+                    </div>
+                </div>
+                <div class="right">
+                	<div class="icon"><img src="images/mfIconRight.png" alt="" /></div>
+                	<div class="text">
+                    	<h3>4th小组成员</h3>
+                    	<p>组长：杨  磊 硕2018级 摄影测量与遥感</p>
+						<p>组员：徐艺嘉 硕2018级 摄影测量与遥感</p>
+						<p>组员：邓雅文 本2016级 地理信息科学</p>
+						<p>组员：陈思远 本2017级 地理信息科学</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+        	<div class="left">
+            	<h2>Our Tours</h2>
+                <div class="box">
+	                <div class="left"><img src="images/fIco1.png" alt="" /></div>
+                    <div class="right">
+                    	<h3><a href="https://www.nasa.gov/specials/apollo50th/videos.html" target="_blank">Apollo 纪念影片</a></h3>
+                    	<p>我们有幸本次旅行刚好赶上纪念阿波罗50周年活动，在游客中心我们观看了阿波罗登月的记录影片，切身体会到了阿波罗所代表的的宇航精神，以及美国精神。</p>
+						<p>友情提示：单击标题链接可以观看阿波罗系列珍藏VIDEO哦~</p>
+                    </div>
+                </div>
+                <div class="box fRight">
+	                <div class="left"><img src="images/fIco2.png" alt="" /></div>
+                    <div class="right">
+                    	<h3>空间通信和导航展览</h3>
+                    	<p>在展览中，找到一条隐藏的信息，以了解将宇航员与地球连接起来的各种能量。选择要发送到NASA航天器的消息，看看当它们被云和干扰阻挡时会发生什么。最后，玩各种年龄段的游戏，并通过引人入胜的交互式触摸屏扩展您的学习。</p>
+                    </div>
+                </div>
+                <div class="box">
+	                <div class="left"><img src="images/fIco3.png" alt="" /></div>
+                    <div class="right">
+                    	<h3>Globe Hall</h3>
+                    	<p>在全球大厅中有许多的教学仪器，鼓励参观者通过GLOBE计划参与NASA的地球科学，大致分为四部分体系，第一部分概述了地球状况，并且鼓励任何人都可以成为科学家；其余部分则展现了不同形态的地球，包括了对科学的描述，以及如何进行科研等。</p>
+                    </div>
+                </div>
+                <div class="box fRight">
+	                <div class="left"><img src="images/fIco4.png" alt="" /></div>
+                    <div class="right">
+                    	<h3> James Webb 太空望远镜</h3>
+                    	<p>为了解我们在太空中的位置，詹姆斯韦伯太空望远镜将向前迈出一大步。 预计将于2018年推出，Webb正在戈达德建造。 通过交互式三维导览了解更多有关这项激动人心的任务的信息，了解您在红外光下的样子。</p>
+                    </div>
+                </div>
+                <div class="box">
+	                <div class="left"><img src="images/fIco5.png" alt="" /></div>
+                    <div class="right">
+                    	<h3>月球识别轨道器（LRO）</h3>
+                    	<p>通过研究LRO的全尺寸机械原型了解月球，探索阿波罗任务的着陆点，站在宇航员的脚步，并检查在阿波罗14号带回来的月球岩石。LRO的主要目标是进行调查，为未来的月球探测做准备。 除了探索任务外，LRO还将返回丰富的科学数据，帮助我们更好地了解月球的地形和构成。</p>
+                    </div>
+                </div>
+                <div class="box fRight">
+	                <div class="left"><img src="images/fIco6.png" alt="" /></div>
+                    <div class="right">
+                    	<h3>Hubble 太空望远镜</h3>
+                    	<p>哈勃太空望远镜以著名天文学家、美国芝加哥大学天文学博士爱德温·哈勃为名，是在地球轨道上并且围绕地球的太空空间望远镜，它于1990年4月24日在美国肯尼迪航天中心由“发现者”号航天飞机成功发射。并在轨道上运行了25年，为我们研究行星，星系，恒星和宇宙提供了重要资料。</p>
+						<p><a href="https://www.nasa.gov/mission_pages/hubble/main/index.html" target="_blank">更多信息点击这里！</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">Collect from <a href="http://www.baidu.com/"  title="NASA之行">NASA之行</a></div>
+            <!-- 
+            LATEST NEWS [BEGIN]
+            -->
+            <div class="right">
+            	<h2>Galleries-图片展</h2>
+                <div id="newsSlider">
+                	<a class="buttons prev" href="#">left</a>
+                	<a class="buttons next" href="#">right</a>
+                    <div class="viewport">
+                        <ul class="overview">
+                            <li class="news">
+                                <h3>NASA Image of the Day</h3>
+                                <div class="date">23.07.2019</div>
+                                <div class="lnPic"><a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html" target="_blank" title="NASA Image of the Day."><img src="images/lnPic.jpg" alt=""  /></a></div>
+                            </li>
+                            <li class="news">
+                                <h3>NASA Image Library.</h3>
+                                <div class="date">23.07.2019</div>
+                                <div class="lnPic"><a href="https://images.nasa.gov/" target="_blank" title="NASA Image Library."><img src="images/lnPic2.jpg" alt=""  /></a></div>
+                            </li>
+                            <li class="news">
+                                <h3>Historic Images on Flickr Commons</h3>
+                                <div class="date">23.07.2019</div>
+                                <div class="lnPic"><a href="https://www.flickr.com/photos/nasacommons" target="_blank" title="Historic Images on Flickr Commons."><img src="images/lnPic3.jpg" alt=""  /></a></div>
+                            </li>
+                            <li class="news">
+                                <h3>APOLLO 50th Anniversary.</h3>
+                                <div class="date">23.07.2019</div>
+                                <div class="lnPic"><a href="https://www.flickr.com/photos/nasacommons/27652989327/" target="_blank" title="APOLLO 50th Anniversary."><img src="images/lnPic4.jpg" alt=""  /></a></div>
+                            </li>
+							<li class="news">
+                                <h3>Astronomy Pic of the Day.</h3>
+                                <div class="date">23.07.2019</div>
+                                <div class="lnPic"><a href="https://apod.nasa.gov/apod/astropix.html" target="_blank" title="Astronomy Pic of the Day."><img src="images/lnPic5.jpg" alt=""  /></a></div>
+                            </li>
+						</ul>
+					</div>
+				</div>                                            
+            </div>
+            <!-- 
+            LATEST NEWS [END]
+            -->
+        </div>
+		
+        <div id="content">
+		  <div class="left">
+        	<h2>Our Maps</h2>
+		</div>
+		<div id="mapDiv">  
+		</div>
+		</div>
+		<script>
+        
+        //地图地址
+        var url = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+        var attr = ' Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>';
+
+        var leafletMap = L.map('mapDiv').setView([38.98, -76.93], 13);
+        //图层
+        L.tileLayer(url, {
+            maxZoom: 18,
+            attribution: attr,
+            id: 'mapbox.streets'
+        }).addTo(leafletMap);
+        //标记点
+        L.marker([38.98, -76.93]).addTo(leafletMap)
+            .bindPopup("<b>Hello Friends!</b><br />I am here now.").openPopup();
+        //圆
+        L.circle([38.98, -76.93], 500, {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5
+        }).addTo(leafletMap).bindPopup("This is the range.");
+        //多边形
+        L.polygon([
+            [38.98, -76.93],
+            [38.98, -76.93],
+            [38.98, -76.93]
+        ]).addTo(leafletMap).bindPopup("This is the range.");
+        //弹出面板
+        var popup = L.popup();
+
+        function onMapClick(e) {
+            popup
+                .setLatLng(e.latlng)
+                .setContent("You clicked the map at " + e.latlng.toString())
+                .openOn(leafletMap);
+        }
+        //添加click时间
+        leafletMap.on('click', onMapClick);
+    </script>
+				
+        <div id="latestWork">
+		    <br></br>
+			<br></br>
+            <h2>Our Thinkings</h2>
+            <div id="lwSlider">
+                <a class="buttons prev" href="#">left</a>
+                <a class="buttons next" href="#">right</a>
+                <div class="viewport">
+                    <ul class="overview">
+                        <li>
+                        	<a href="images/1.jpg" class="lwImg" rel="lW"><img src="images/lw1.jpg" alt="" class="lwImgIn" /></a>
+                            <h3>杨  磊</h3>
+                        	<p style="text-align: justify;text-justify: inter-character">本次参观让我学到了很多有趣的知识，一进NASA的展示厅就能明显的感受到被宇宙科技性所包围。其中比较吸引我的地方是较多类型的火箭，航天器，卫星等，展现了美国独一无二的科技实力。</p> 
+                        </li>
+                        <li>
+                        	<a href="images/2.jpg" class="lwImg" rel="lW"><img src="images/lw2.jpg" alt="" class="lwImgIn" /></a>
+                            <h3>徐艺嘉</h3>
+                        	<p style="text-align: justify;text-justify: inter-character">以前都是在电视看到有关NASA的一些介绍，这次通过亲身经历，印象完全不同。在NASA里面总能把一些深奥的知识讲述的很通俗易懂，它适合所有年龄段的人来这里学习有趣的知识。</p> 
+                        </li>
+                        <li>
+                        	<a href="images/3.jpg" class="lwImg" rel="lW"><img src="images/lw3.jpg" alt="" class="lwImgIn" /></a>
+                            <h3>邓雅文</h3>
+                        	<p style="text-align: justify;text-justify: inter-character">本次的NASA参观使我感受到了美国对科普的重视，全民科普让我感到十分震撼，在这里不仅七八岁的小孩，就连上了年纪的老人都会学习的津津有味，知识是有趣的，学无止境。</p> 
+                        </li>
+                        <li>
+                        	<a href="images/4.jpg" class="lwImg" rel="lW"><img src="images/lw4.jpg" alt="" class="lwImgIn" /></a>
+                            <h3>陈思远</h3>
+                        	<p style="text-align: justify;text-justify: inter-character">今年恰逢阿波罗11号飞船登月50周年，我和同学们一起观看了纪念影片，影片中播放的阿波罗11号绕月飞行时拍摄的影象，听着当年三位宇航员之一的迈克尔柯林斯的采访讲述，让人仿佛又回到了五十年前的那一幕，人类在历史上迈出一大步，让我十分震撼。</p> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">        
+        	<div id="footerIn">
+                <div class="left">
+                	&copy; Copyright &copy; 2019.BNU4th_group.All rights reserved.<a target="_blank" href="http://www.baidu.com/" title="NASA之行">NASA之行</a> Collect from <a href="http://www.baidu.com/" title="NASA之行" target="_blank">NASA之行</a>
+                </div>            
+                <div class="right">
+                    <ul>
+                        <li><a href="#"><img alt="Facebook" src="images/socialFb.png" /></a></li>
+                        <li><a href="#"><img alt="Tweeter" src="images/socialTw.png" /></a></li>
+                        <li><a href="#"><img alt="Flickr" src="images/socialFlickr.png" /></a></li>
+                        <li><a href="#"><img alt="Vimeo" src="images/socialVimeo.png" /></a></li>
+                        <li><a href="#"><img alt="YouTube" src="images/socialYT.png" /></a></li>
+                        <li><a href="#"><img alt="Thumblr" src="images/socialTL.png" /></a></li>
+                        <li><a href="#"><img alt="LastFM" src="images/socialLF.png" /></a></li>
+                        <li><a href="#"><img alt="MySpace" src="images/socialMS.png" /></a></li>
+                    </ul>
+                </div>
+            </div>			
+		<a href="https://geo.bnu.edu.cn/" target="_blank" class="logo2" title="BNU"></a> 	
+        </div>
+    </div>
+
+</body>
+</html>
